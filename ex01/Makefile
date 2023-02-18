@@ -1,5 +1,5 @@
 CC = c++ -Wall -Wextra -Werror -std=c++98 -g -o span
-SRC = main.cpp
+SRC = main.cpp span.cpp
 
 NAME = span
 
