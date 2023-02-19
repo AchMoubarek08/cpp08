@@ -8,11 +8,11 @@ int main()
     try
     {
         std::cout << *easyfind(v, 5) << std::endl;
-        std::cout << *easyfind(v, 9) << std::endl;
+        std::cout << *easyfind(v, 111) << std::endl;
     }
     catch (std::exception &e)
     {
-        std::cout << "Exception: " << e.what() << std::endl;
+        std::cout << "Exception: element not found" << std::endl;
     }
     return 0;
 }
